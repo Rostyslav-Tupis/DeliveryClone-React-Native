@@ -1,12 +1,6 @@
 import React, { Component } from "react";
-import {
-  Animated,
-  Dimensions,
-  View,
-  ViewPropTypes,
-  StyleSheet,
-} from "react-native";
-
+import { Animated, Dimensions, View, StyleSheet } from "react-native";
+import { ViewPropTypes } from "deprecated-react-native-prop-types";
 import { bool, func, number, string } from "prop-types";
 
 const window = Dimensions.get("window");
